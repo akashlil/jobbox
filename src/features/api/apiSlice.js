@@ -4,7 +4,7 @@ export const apiSlice = createApi({
   reducerPath: "apiSlice",
   tagTypes: ["jobs", "jobById"],
   baseQuery: fetchBaseQuery({
-    baseUrl: "https://jobbox-server-akashlil.vercel.app/",
+    baseUrl: "https://jobbox-server-akashlil.vercel.app",
   }),
   endpoints: (bulider) => ({}),
 });
