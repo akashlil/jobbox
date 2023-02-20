@@ -40,7 +40,6 @@ const JobDetails = () => {
   const allradyApplyUser = applicants?.find(
     (data) => data.email === user.email
   );
-  console.log(allradyApplyUser);
   const handlerApply = () => {
     if (user.role === "candidate") {
       const data = {
